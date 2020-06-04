@@ -1,0 +1,12 @@
+.home-page {
+  background-image: url("https://www.itl.cat/pngfile/big/224-2248196_3d-images-for-website-background.jpg");
+  display: flex;
+  height: 90vh;
+  background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.home-page .container {
+  margin-top: 70px;
+  mix-blend-mode: hard-light;
+}

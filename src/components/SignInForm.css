@@ -1,0 +1,43 @@
+.wrapper {
+  background-image: url("https://st4.depositphotos.com/6469658/20528/i/1600/depositphotos_205287274-stock-photo-abstract-topographic-background-white-paper.jpg");
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  background-blend-mode: luminosity;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wrapper .container input {
+  width: 40%;
+  margin-left: 10rem;
+}
+.wrapper .form-group label {
+  color: black;
+  text-align: center;
+  padding-left: 10rem;
+}
+
+.wrapper > form {
+  border: red;
+  border-radius: 3rem;
+  border-style: inset;
+  border-block-start-color: salmon;
+  border-spacing: 0vh;
+  width: 10rem;
+}
+.wrapper .jumbotron {
+  background-color: #63c6ff;
+  width: 50%;
+  background-blend-mode: luminosity;
+}
+.wrapper .container {
+  height: 60vh;
+  margin-top: 90px;
+}
+body .wrapper {
+  background-color: red;
+}
